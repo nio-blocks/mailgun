@@ -1,0 +1,7 @@
+{
+  "nio/MailGunBlock": {
+    "language": "Python",
+    "from_python": "mailgun_block.MailGunBlock",
+    "url": "git://github.com/nio-blocks/mailgun.git"
+  }
+}
