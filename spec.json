@@ -1,11 +1,11 @@
 {
-  "nio/MailGunBlock": {
+  "nio/MailGun": {
     "description": "Send email using Mailgun",
     "categories": [
       "Notifications"
     ],
     "tags": "",
     "from_readme": "docs/mailgun_block.md",
-    "from_python": "mailgun_block.MailGunBlock"
+    "from_python": "mailgun_block.MailGun"
   }
 }

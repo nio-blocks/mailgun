@@ -22,7 +22,7 @@ class Message(PropertyHolder):
     text = StringProperty(title="Plain Text", default="Message text")
     html = StringProperty(title="HTML", default="<b>Message HTML</b>")
 
-class MailGunBlock(EnrichSignals, Block):
+class MailGun(EnrichSignals, Block):
 
     version = VersionProperty('0.1.0')
     creds = ObjectProperty(MailgunCreds, title="API Credentials", order=0)
